@@ -1,0 +1,28 @@
+/* ProjectShowCase.css */
+
+/* Style for the project list item */
+.app-li {
+  list-style: none;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.app-li:hover {
+  transform: translateY(-5px);
+}
+
+/* Style for the project image */
+.pic {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style for the project name */
+.name {
+  margin-top: 10px;
+  font-size: 16px;
+}
